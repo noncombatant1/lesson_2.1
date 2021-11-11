@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0DBA9851-D7E7-4238-856D-8B4DA9C23D70}</ProjectGuid>
+    <ProjectGuid>{99844003-6311-4302-8EAB-291EF05D1A91}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>lesson__2._2</RootNamespace>
-    <AssemblyName>lesson_ 2.2</AssemblyName>
+    <RootNamespace>trening1</RootNamespace>
+    <AssemblyName>trening1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="car\Drive.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
